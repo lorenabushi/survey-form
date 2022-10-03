@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey-form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<link rel="stylesheet" href="styles.css">
+</head>
+<Header>
+<h1 id="title"><b> Survey Form for Crypto Assets <b></h1>
+</Header>
+<br>
+<body>
+<p id="description"> 
+<b> Which cryptocurrencies do you like to buy? </b>
+<b> fill out details bellow. </b>
+</p>
+<br>
+<form id="survey-form">
+<div class"input-headings">
+  <label form="name" id="name-label" > Name </label>
+  <input id="name" type="text" name="name" placeholder="your name" required></input>
+  <br>
+<label for="email" id="email-label"> Email </label>
+<input id="email" type="email" name="email" placeholder="@email.com" required> </input>
+  <br>
+<label for="number" id="number-label"> price </label>
+<input id="number" type="number" name="number" placeholder="$ 0.00" min="0.1" max="100" required. </input>
+<br>
+<label for="description" id="type of crypto"> Select Crypto </label>
+<select id="dropdown">
+  <option value="Bitcoin"> Bitcoin </option>
+  <option value="Etherium"> Etherium </option>
+  <option value="Solana"> Solana </option>
+  <option value="Cardano"> Cardano </option>
+                
+</select>
+
+<br>
+<br>
+<div class="row">
+  <div class="col-md-4">
+
+<label for"Exchange" class="exchange"> Exchange Used:</label>
+<br>
+<input id="Exchange" type="radio" name="name" value="exchange"> </input>
+<label for="Exchange"> Coinbase </label>
+<br>
+<input id="Exchange" type="radio" name="name" value="exchange"> </input>
+<label for="Exchange"> Binance </label>
+<br>
+<input id="Exchange" type="radio" name="name" value="exchange"> </input>
+<label for="Exchange"> FTX </label>
+<br>
+<input id="Exchange" type="radio" name="name" value="exchange"> </input>
+<label for="Exchange"> Other </label>
+  </div>
+
+<div class="col-md-4">
+<label for="features" class="features"> Added Features: </label>
+<br>
+<input id="checkbox" type="checkbox" name="feature" value="0"> 
+<label for="features"> Stake Coins </label> </input> 
+<br>
+<input id="checkbox" type="checkbox" name="feature" value="1">
+<label for="features">Cold Storage </label> </input>
+</div>
+</div>
+
+<br>
+<br>
+
+<label id="textarea"> Additional Comments: </label>
+<br>
+<textarea id="textarea" name"comments" rows"15" cols="40">
+</textarea>
+<br>
+<br>
+
+<button class="btn btn-block btn-primary submit-button" type="submit" value="Place Order"> Submit
+  </button>
+
+<br>
+<br>
+
+</div>
+
+</form>
+</body>
+</html> 
+
+  
+  
